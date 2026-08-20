@@ -1,0 +1,13 @@
+Partner Feedback
+1.Is navigation easy to use? – Yes, the navigation is simple and easy to understand. All the pages are easy to access from the menu.
+2.Is content organized? – Yes, the content is properly organized, and each page has its own purpose.
+3.Is text readable? – Yes, the text is clear, readable, and has good spacing.
+4.Is the design consistent? – Yes, the colors, fonts, navigation, and layout are consistent throughout the website.
+5.Is the website accessible? – Yes, the website is easy to understand and navigate, and the text has good contrast with the background.
+6.Do all links work? – Yes, all navigation links work properly and lead to the correct pages.
+7.Does the site look professional? – Yes, the website looks clean, simple, and professional for a student portfolio.
+
+Suggestions for Improvement
+1.Add a profile picture in the About Me section to make the portfolio more personal and help visitors recognize the owner of the website.
+2.Add screenshots of the three projects in the Projects section so visitors can see examples of the actual websites created.
+3.Shorten some project descriptions because some information is a little long. Using shorter descriptions would make the Projects page easier and faster to read.
