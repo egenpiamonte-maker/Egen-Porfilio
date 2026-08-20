@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Egen Mark Piamonte</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+
+        header {
+            background: #111827;
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px 25px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        /* PAGE HEADER */
+
+        .page-header {
+            text-align: center;
+            padding: 60px 20px;
+            background: #e8eefc;
+        }
+
+        .page-header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .page-header p {
+            color: #555;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 35px;
+
+            background: white;
+            border-radius: 10px;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .contact h2 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            margin-bottom: 15px;
+        }
+
+        .contact strong {
+            display: inline-block;
+            width: 100px;
+        }
+
+        .contact a {
+            color: #1e3a8a;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 80px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 600px) {
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+            }
+
+            .page-header h1 {
+                font-size: 32px;
+            }
+
+            .contact {
+                margin: 30px 20px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header>
+
+        <nav>
+
+            <h2>EGEN</h2>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+
+                <li>
+                    <a href="about.html">ABOUT ME</a>
+                </li>
+
+                <li>
+                    <a href="skills.html">SKILLS</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">PROJECTS</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- PAGE TITLE -->
+
+        <section class="page-header">
+
+            <h1>Contact Me</h1>
+
+            <p>
+                Get in touch with me for school projects and collaboration.
+            </p>
+
+        </section>
+
+
+        <!-- CONTACT INFORMATION -->
+
+        <section class="contact">
+
+            <h2>Student Information</h2>
+
+            <p>
+                If you would like to contact me about school projects,
+                collaboration, or other academic activities, you can
+                use the information below.
+            </p>
+
+            <p>
+                <strong>Name:</strong>
+                Egen Mark Piamonte
+            </p>
+
+            <p>
+                <strong>Course:</strong>
+                Bachelor of Science in Information Technology
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:egenpiamonte@gmail.com">
+                    egenpiamonte@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/" target="_blank">
+                    My GitHub Profile
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Egen Mark Piamonte. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

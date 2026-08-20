@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Egen Mark Piamonte</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .page-header {
+            text-align: center;
+            padding: 70px 20px;
+            background: #e8eefc;
+        }
+
+        .page-header h1 {
+            font-size: 42px;
+            color: #111827;
+        }
+
+        .skills {
+            max-width: 1100px;
+            margin: auto;
+            padding: 70px 25px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .skill-card h2 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 900px) {
+            .skills {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .skills {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2>EGEN</h2>
+
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="page-header">
+        <h1>My Skills</h1>
+        <p>Technologies and personal skills that I am developing.</p>
+    </section>
+
+    <section class="skills">
+
+        <div class="skill-card">
+            <h2>HTML</h2>
+            <p>I can create structured and semantic webpages using HTML.</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>CSS</h2>
+            <p>I can style webpages using layouts, colors, spacing, and responsive design.</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>C#</h2>
+            <p>I have experience creating basic programs using C#.</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Creativity</h2>
+            <p>Enjoy creating new ideas and approaching tasks from different perspectives.</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Git & GitHub</h2>
+            <p>I can use Git and GitHub to manage programming projects.</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Problem Solving</h2>
+            <p>I enjoy analyzing problems and finding logical solutions.</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Teamwork</h2>
+            <p>I can collaborate with classmates and work as part of a team.</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Communication</h2>
+            <p>I continue to develop my communication skills through presentations and group activities.</p>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Egen Mark Piamonte. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
